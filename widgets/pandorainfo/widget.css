@@ -1,0 +1,35 @@
+@keyframes widget_pandoramarquee {
+    0% {
+        transform: translateX(100%)
+    }
+    100% {
+        transform: translateX(-100%)
+    }
+}
+#widget_pandorainfo {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 350px;
+}
+#widget_pandorainfo div.songinfo {
+    position: relative;
+    width: 340px;
+    padding: 5px;
+    background-color: rgba(0,16,64, .75);
+    overflow: hidden;
+    font-size: 16px;
+    text-align: center;
+    color: rgb(0,192,255);
+}
+#widget_pandorainfo div.songinfo > span {
+    display: inline-block;
+    white-space: nowrap;
+}
+#widget_pandorainfo div.songinfo .seperator {
+    color: rgb(0,128,192);
+    font-size: 14px;
+    margin-left: .5em;
+    margin-right: .5em;
+    display: inline-block;
+}

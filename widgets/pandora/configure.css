@@ -1,0 +1,30 @@
+#configure_widgetdisplaybox.pandora {
+    position: relative;
+}
+#configure_widgetdisplaybox.pandora > .info {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+#configure_widgetdisplaybox.pandora .group {
+    margin: 10px 10px 10px 10px;
+    font-size: 16px;
+    width: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+}
+#configure_widgetdisplaybox.pandora .group > div {
+    margin: 10px 0px;
+}
+#configure_widgetdisplaybox.pandora .group > div > *:not(.save) {
+    display: block;
+    width: 100%;
+}
+#configure_widgetdisplaybox.pandora .group > div > input {
+    font-size: 18px;
+}
+#configure_widgetdisplaybox.pandora .group > div.savecontainer {
+    text-align: center;
+    margin-top: 20px;
+}

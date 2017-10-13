@@ -1,0 +1,32 @@
+#configure_widgetdisplaybox.mixeralerts {
+    position: relative;
+}
+#configure_widgetdisplaybox.mixeralerts .info {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+#configure_widgetdisplaybox.mixeralerts .hide {
+    display: none;
+}
+#configure_widgetdisplaybox.mixeralerts .codebuttonbox {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#configure_widgetdisplaybox.mixeralerts .code {
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+}
+#configure_widgetdisplaybox.mixeralerts .expires {
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#configure_widgetdisplaybox.mixeralerts #expiretime {
+    font-weight: bold;
+}
+#configure_widgetdisplaybox.mixeralerts .getcode {
+    cursor: pointer;
+}

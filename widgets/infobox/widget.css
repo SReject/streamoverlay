@@ -1,0 +1,44 @@
+
+#widget_infobox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 720px;
+    color: rgb(0, 192, 255);
+}
+#widget_infobox .title {
+    font-size: 90px;
+    font-weight: bold;
+    display: flex;
+    width: 100%;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 3px black;
+    color: white;
+}
+#widget_infobox .title > div {
+    flex: 1 1 auto;
+    text-align: center;
+}
+#widget_infobox .content {
+    background-color: #000000;
+    display: flex;
+    font-size: 30px;
+}
+#widget_infobox .message {
+    padding: 5px 10px;
+    flex: 1 1 auto;
+    text-align: center;
+    display: flex;
+}
+#widget_infobox .message > div {
+    flex: 1 1 auto;
+    text-align: center;
+}
+#widget_infobox .counter {
+    padding: 5px 10px;
+    font-family: monospace;
+    background-color: rgb(0,192,255);
+    color: black;
+    font-weight: bold;
+}

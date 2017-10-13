@@ -1,0 +1,18 @@
+#widget_socialbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    color: rgb(0, 192, 255);
+    -webkit-text-fill-color: rgb(0, 192, 255);
+    -webkit-text-stroke: 1px rgba(0,0,0, .75);
+    font-weight: bold;
+}
+#widget_socialbox .socialicon {
+    display: inline-block;
+}
+#widget_socialbox > div {
+    flex: 1 1 auto;
+    text-align: center;
+}

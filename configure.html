@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html so="configure">
+    <head>
+        <title>Stream Overlay - Configure</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./css/main.css">
+
+        <!-- independant librarys -->
+        <script src="./js/lib/CustomEventEmitter.js"></script>
+
+        <!-- Config & initializer -->
+        <script src="./config/config.js"></script>
+        <script src="./js/streamoverlay.js"></script>
+    </head>
+    <body>
+        <div id="configure">
+            <div id="configure_title">
+                <div id="configure_title_text">Widget:</div>
+                <div id="configure_title_widgetname">Loading...</div>
+            </div>
+            <div id="configure_widgetdisplaybox">Loading...</div>
+            <div id="configure_footer">
+                <div id="configure_footer_skipinfo">You may skip any widget's configuration without ill effects short of the widget potentially not operating. Previous configurations for a skipped widget will be kept. At any point you may load the configure page again to re-auth for a desired widget</div>
+                <div id="configure_footer_skipbutton"><a class="btn disabled" href="#">Skip</a></div>
+            </div>
+        </div>
+        <script src="./js/streamoverlay.configure.js"></script>
+    </body>
+</html>
