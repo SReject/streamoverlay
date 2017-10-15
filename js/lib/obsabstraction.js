@@ -9,7 +9,7 @@
     // Current scene defaults; updated with hash changes
     const scene  = {
         name: "default",
-        width: 1024,
+        width: 1280,
         height: 720
     };
 
