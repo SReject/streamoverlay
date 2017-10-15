@@ -38,14 +38,14 @@ command line parameters from above.
 ### Setup and run Configure page
 1. Create a BrowserSource on your first scene; use the `Create New` option and give it a name.  
 2. In the `Properties` window that appears, input the URL as `file://__PATH__/overlay/configure.html` where `__PATH__` is the path to the overlay directory  
-3. Set the width property to 1024 and the height property to 720  
-3. Click `OK`  
-4. Under `Sources` click on the BrowserSource then right-click it  
-5. Select "Interact"  
-6. Follow the instructions until it navigates you to the overlay page  
-7. Close the interact window  
-8. Right-click the BrowserSource under `Sources` again  
-9. Set the path to `file://__PATH__/overlay/overlay.html` where `__PATH__` is the path to the overlay directory.  
+3. Set the width and height properties to the size of your OBS-Studio canvas. (Currently this overlay has 1280x720 hardcoded; but this will be changed to use the scene's width and height)
+4. Click `OK`  
+5. Under `Sources` click on the BrowserSource then right-click it  
+6. Select "Interact"  
+7. Follow the instructions until it navigates you to the overlay page  
+8. Close the interact window  
+9. Right-click the BrowserSource under `Sources` again  
+10. Set the path to `file://__PATH__/overlay/overlay.html` where `__PATH__` is the path to the overlay directory.  
 
 _You can repeat steps 2-9 as needed to run the reconfigure page_  
 
